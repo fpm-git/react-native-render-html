@@ -20,8 +20,8 @@ jobs:
         name: Jest Tests
       - run: yarn workspace react-native-render-html test:lint
         name: Linting Tests
-      - run: yarn workspace react-native-render-html build
-        name: Build
+      - run: yarn workspace react-native-render-html pack
+        name: Pack
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
