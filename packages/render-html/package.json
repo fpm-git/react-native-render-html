@@ -1,6 +1,6 @@
 {
-  "name": "react-native-render-html",
-  "version": "6.3.4",
+  "name": "@fpm-git/react-native-render-html",
+  "version": "6.3.5",
   "author": "Meliorence <contact@meliorence.com> (github.com/meliorence)",
   "license": "BSD-2-Clause",
   "description": "The hackable, full-featured Open Source HTML rendering solution for React Native.",
@@ -9,8 +9,7 @@
   "react-native": "src/",
   "files": [
     "lib",
-    "src",
-    "react-native-render-html.podspec"
+    "src"
   ],
   "homepage": "https://meliorence.github.io/react-native-render-html/",
   "bugs": {
